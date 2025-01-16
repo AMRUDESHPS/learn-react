@@ -1,0 +1,23 @@
+/* Ensure the body and html take full height */
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  /* Wrap all content in a flex container */
+  .page-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  /* Main content takes up available space */
+  .main-content {
+    flex: 1; /* This makes the content grow to take available space */
+  }
+  
+  /* Footer is pushed to the bottom */
+  .footer {
+    margin-top: auto; /* Push the footer to the bottom */
+  }
+  
